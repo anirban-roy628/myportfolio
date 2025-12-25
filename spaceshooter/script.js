@@ -235,7 +235,7 @@ function startEnemySpawning() {
         let boss1 = "image/red-boss.png";
 
         // Spawn boss after kills
-        if (enemykilld >= 100) {
+        if (enemykilld >= 20) {
             createEnmy(400, boss1, bossOne, bossOnep, bossOneH, 100, true, 500);
             clearInterval(setint);
         }
@@ -636,5 +636,6 @@ function rlmove(array, arrayPos, i, speed) {
         array[i].style.top = arrayPos[i].y + "px";
     }
 }
+
 
 //Demo
