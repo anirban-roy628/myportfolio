@@ -111,7 +111,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-const GITHUB_USERNAME = 'theRetrox';
+const GITHUB_USERNAME = 'anirban-roy628';
 
 async function fetchGitHubData() {
     try {
@@ -211,4 +211,5 @@ let gameloop = () => {
     heroModel.cameraOrbit = `${ho}deg ${ver}deg ${zm}m`;
     requestAnimationFrame(gameloop);
 }
+
 requestAnimationFrame(gameloop);     
